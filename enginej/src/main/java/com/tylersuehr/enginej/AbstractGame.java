@@ -8,6 +8,8 @@ import android.content.Context;
  * Basically, this is a wrapper for the {@link android.opengl.GLSurfaceView.Renderer} interface.
  * Please note that this was design to ONLY support OpenGL ES 2.0.
  *
+ * All games must subclass this class.
+ *
  * @author Tyler Suehr
  */
 public abstract class AbstractGame {
